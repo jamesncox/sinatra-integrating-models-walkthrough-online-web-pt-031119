@@ -15,6 +15,10 @@ class TextAnalyzer
     text.scan(/[aeiou]/).count 
   end 
   
-  def
+  def count_of_consonants
+    text.scan(/[bcdfghjklmnpqrstvwxyz]/).count
+  end
+  
+  
   
 end 
